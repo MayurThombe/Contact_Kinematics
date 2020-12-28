@@ -1,0 +1,49 @@
+input =                                %input 1 for form closure
+
+    90     0   180   190
+     0     0    -2     4
+     0     0    -2     2
+
+>> z = form_closure_test(input)
+
+Optimal solution found.
+
+Form closure exists.
+z =
+
+    1.0000
+    9.3426
+    3.6713
+    5.7588
+
+>> 
+
+
+
+
+
+
+
+
+
+
+
+
+input =                           %input 2 for not a form closure
+
+    90     0   180   240
+     0     0    -2     4
+     0     0    -2     2
+
+>> z = form_closure_test(input)
+
+No feasible solution found.
+
+Linprog stopped because no point satisfies the constraints.
+
+Form closure does ot exist.
+z =
+
+     []
+
+>> 
